@@ -1,0 +1,16 @@
+[project]
+name = "vmaf"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "opencv-python~=4.12",
+    "numpy~=2.2",
+    "matplotlib~=3.10",
+    "easyocr~=1.7",
+]
+
+[dependency-groups]
+dev = []
